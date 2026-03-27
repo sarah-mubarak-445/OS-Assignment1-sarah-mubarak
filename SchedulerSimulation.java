@@ -239,7 +239,9 @@ public class SchedulerSimulation {
             Thread currentThread = processQueue.poll(); // Dequeues the next thread
               // FEATURE 2: Increment context switch counter when a new process starts running
             contextSwitchCount++;
-
+// Retrieve the process associated with the thread from the map
+            Process process = processMap.get(currentThread);
+            
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
