@@ -1,10 +1,10 @@
-import java.util.LinkedList;
-import java.util.Queue;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.Random;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Random;
 
 // ANSI Color Codes for enhanced terminal output
 class Colors {
@@ -259,7 +259,7 @@ public class SchedulerSimulation {
 
             // Create a new process object with a unique name, burst time, and the defined time quantum
             // FEATURE 1: Added priority parameter
-            Process process = new Process("P" + i, burstTime, timeQuantum);
+             Process process = new Process("P" + i, burstTime, timeQuantum, priority);
             
             // Add the process to the ready queue and the map
             addProcessToQueue(process, processQueue, processMap);
@@ -296,7 +296,7 @@ public class SchedulerSimulation {
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
             int queueCount = 0;
             for (Thread thread : processQueue) {
-                Process process = processMap.get(thread);
+                Process p = processMap.get(thread);
                 if (queueCount > 0) System.out.print(Colors.WHITE + " → " + Colors.RESET);
                 System.out.print(Colors.BRIGHT_CYAN + process.getName() + Colors.RESET);
                 queueCount++;
@@ -317,8 +317,7 @@ public class SchedulerSimulation {
                 System.out.println("Main thread interrupted.");
             }
             
-            // Retrieve the process associated with the thread from the map
-            Process process = processMap.get(currentThread);
+        
             
             // Check if the process is not finished
             if (!process.isFinished()) {
