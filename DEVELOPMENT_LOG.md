@@ -32,16 +32,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [Mar 25,2026,3:35PM]
+**What I did**: fork repo and rename it
 
-**Details**: 
+**Details**: setup my github for the project
 
-**Challenges**: 
+**Challenges**:  finding rename button in settings
 
-**Solution**: 
+**Solution**: searched settings and fixed name
 
-**Time spent**: 
+**Time spent**: 15m
 
 ---
 
