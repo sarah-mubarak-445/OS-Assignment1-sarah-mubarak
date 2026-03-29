@@ -79,17 +79,14 @@ Document your development process as you work on the assignment. Add entries sho
 **Time spent**: 1h: 
 
 ---
+### Entry 5 - [Mar 28,2026,9:12PM]
+**What I did**: final test and checking commits
+**Details**:  making sure everything works fine
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+**Challenges**:  3 separate commits for 3 features
+**Solution**:  checked git history before finish
+**Time spent**: 45m: 
 
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
 
 ---
 
