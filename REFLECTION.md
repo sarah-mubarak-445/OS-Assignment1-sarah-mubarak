@@ -19,17 +19,13 @@ The most challenging part for me was Feature 3 where I had to calculate the wait
 
 ## Question 3: How did you overcome the challenges you faced?
 
-**Your Answer:**
-
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+I overcame these challenges by following a step by step approach and staying patient. When I had trouble with the Java code or the table format I asked for help and discussed the logic with others to understand it better. I also spent a lot of time reading the README file and the instructions in the assignment PDF. For the GitHub issues I followed the steps in the guide to sign in through VS Code and authorize my account. Testing the program many times helped me fix the errors and make sure everything worked correctly before the final submission.  
 
 ---
 
 ## Question 4: How can you apply multithreading concepts in real-world applications?
 
-**Your Answer:**
-
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+I can see multithreading being used in many apps I use every day like mobile games and web browsers. For example in a browser one thread can load the text while another thread downloads images at the same time. In a video game different threads handle the music and the player movement simultaneously. This assignment showed me that scheduling like Round-Robin is how these apps stay responsive to users. These concepts are very important for making any software fast and efficient in real life scenarios.
 
 ---
 
