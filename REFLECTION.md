@@ -12,9 +12,8 @@ In this assignment I learned that multithreading in Java helps a program do many
 
 ## Question 2: What was the most challenging part of this assignment?
 
-**Your Answer:**
+The most challenging part for me was Feature 3 where I had to calculate the waiting time for each process. It was hard to get the logic right and make sure the table at the end showed the correct results. I also faced a challenge with GitHub and VS Code especially when I had to connect my account and authorize it for the first time. Fixing the print format for the final summary table took a lot of my time to make it look perfect. These difficulties helped me understand how much detail is needed to build a working system. 
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
 
 ---
 
