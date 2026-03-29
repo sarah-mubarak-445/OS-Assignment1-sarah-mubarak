@@ -19,7 +19,7 @@ The most challenging part for me was Feature 3 where I had to calculate the wait
 
 ## Question 3: How did you overcome the challenges you faced?
 
-I overcame these challenges by following a step by step approach and staying patient. When I had trouble with the Java code or the table format I asked for help and discussed the logic with others to understand it better. I also spent a lot of time reading the README file and the instructions in the assignment PDF. For the GitHub issues I followed the steps in the guide to sign in through VS Code and authorize my account. Testing the program many times helped me fix the errors and make sure everything worked correctly before the final submission.  
+I overcame these challenges by following a step by step approach and staying patient. When I had trouble with the Java code or the table format I asked for help and discussed the logic with others to understand it better. I also spent a lot of time reading the README file and the instructions in the assignment PDF. For the GitHub issues I followed the steps in the guide to sign in through VS Code and authorize my account. Testing the program many times helped me fix the errors and make sure everything worked correctly before the final submission. 
 
 ---
 
