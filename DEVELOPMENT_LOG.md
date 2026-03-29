@@ -97,10 +97,11 @@ Time spent: 25m
 
 ## Summary
 
-**Total time spent on assignment**: [X hours]
+**Total time spent on assignment**: 4 Hours and 15 Minutes
 
 **Most challenging part**: 
+‏The waiting time feature (Feature 3). It was hard to track the time for each process and make the final results show correctly in the table
 
-**Most interesting learning**: 
+**Most interesting learning**: Using the Random class for process priorities and learning how to fix the print format to show all results perfectly.
 
-**What I would do differently next time**: 
+**What I would do differently next time**: I would plan the table format and the timing logic before writing the code. This would save time and make the testing process easier.
