@@ -85,16 +85,13 @@ Time spent: 25m
 
 ---
 
-### Entry 6 - [Optional - Date and Time]
-**What I did**: 
+### Entry 6 - [Mar 29,2026,1:15PM]
+**What I did**:  final testing for all features
+**Details**:  i ran the code many times with different inputs to check the output
 
-**Details**: 
-
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Challenges**: some process results were not showing correctly in the table
+**Solution**: i fixed the print format and now all results are perfect
+**Time spent**: 40m: 
 
 ---
 
