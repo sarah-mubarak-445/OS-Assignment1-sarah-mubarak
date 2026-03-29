@@ -58,16 +58,14 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [Mar 27,2026,6:13PM]
+**What I did**: priority and context switch code
+**Details**: doing the first two features in part 2
 
-**Details**: 
+**Challenges**:  random priority 1 to 5 was tricky
+**Solution**:  used java random class for numbers
 
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 1.5h
 
 ---
 
