@@ -69,16 +69,14 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [Mar 28,2026,5:30PM]
+**What I did**: waiting time tracking feature
+**Details**:  last part of the code implementation
 
-**Details**: 
+**Challenges**:   timing for each process was hard
+**Solution**:  uused currenttimemillis to get it right
 
-**Challenges**: 
-
-**Solution**: 
-
-**Time spent**: 
+**Time spent**: 1h: 
 
 ---
 
