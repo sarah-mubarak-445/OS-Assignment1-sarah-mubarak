@@ -45,16 +45,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [Mar 25,2026,4:30PM]
+**What I did**: student id update 
 
-**Details**: 
+**Details**: changing the default id to mine
 
-**Challenges**: 
+**Challenges**:   making sure it shows in output
 
-**Solution**: 
+**Solution**: updated variable and did first commit
 
-**Time spent**: 
+**Time spent**: 10m
 
 ---
 
