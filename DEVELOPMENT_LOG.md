@@ -31,17 +31,12 @@ Document your development process as you work on the assignment. Add entries sho
 ---
 
 ## Your Development Log:
-
-### Entry 1 - [Mar 25,2026,3:35PM]
-**What I did**: fork repo and rename it
-
-**Details**: setup my github for the project
-
-**Challenges**:  finding rename button in settings
-
-**Solution**: searched settings and fixed name
-
-**Time spent**: 15m
+Entry 1- [Mar 25,2026,3:00PM]
+What I did: clone the repository and setup IDE
+Details: i used the git clone command to download the project to my computer and opened it in VS Code
+Challenges: connecting my github account to VS Code for the first time
+Solution: i signed in through the account icon and authorized the IDE to access my repos
+Time spent: 25m
 
 ---
 
