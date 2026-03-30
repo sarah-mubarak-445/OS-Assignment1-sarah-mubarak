@@ -86,10 +86,10 @@ It switches between the audio and video threads so fast that you can't even tell
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. How Time Quantum works: I learned that giving each process a small slice of time is the best way to keep the system moving fairly for everyone.
+2. The role of Context Switching: I now understand how the CPU switches between different tasks so fast that they all seem to run at the same time.
+3. Managing Thread Lifecycles: I learned how threads move from being New to Running and then Terminated using functions like start() and sleep().
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Wait Time Calculation: I want to understand more about how changing the quantum size affects the waiting time for all processes in the queue.
+2. Preemptive Scheduling: I need to learn more about the differences between scheduling that can interrupt a process and scheduling that waits for it to finish.
