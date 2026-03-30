@@ -45,17 +45,17 @@ If you look at my output, P1 finished its 4000ms turn but still had a bit of wor
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
 
-1. **New**: [When is P1 in New state?]
 
-2. **Runnable**: [When does P1 become Runnable?]
+1. **New**:  P1 is in the New state the moment we create the thread object in our code.
 
-3. **Running**: [When is P1 Running?]
+2. **Runnable**: After we call Thread.start(), it moves to Runnable. It's basically just waiting for its turn now
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+3. **Running**: When it's finally P1's time to use the CPU, it enters the Running state.
 
-5. **Terminated**: [When is P1 Terminated?]
+4. **Waiting**: If the thread has to stop for a bit because of Thread.sleep() or maybe Thread.join(), it stays in a Waiting state.
+
+5. **Terminated**:Once all the work is 100% done, P1 goes to the Terminated state and just stops.
 
 ---
 
