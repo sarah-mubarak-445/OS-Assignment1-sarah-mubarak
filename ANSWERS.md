@@ -65,21 +65,21 @@ If you look at my output, P1 finished its 4000ms turn but still had a bit of wor
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: Web Server
 
 **Description**: 
-[Describe the real-world scenario or application]
+ Think about a server like Apache that has to deal with many people visiting a site at the same time.
+
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+ It keeps everything fair. If someone is trying to download a massive file, it won't stop other people from loading small pages because the system gives everyone a small slice of time.
 
-### Example 2: [Name of application/scenario]
 
+### Example 2: Media Player
 **Description**: 
-[Describe the real-world scenario or application]
-
+Like an app that plays a movie and has to handle sound and video threads at the same time.
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+It switches between the audio and video threads so fast that you can't even tell. This keeps the sound and picture in sync and makes sure the app doesn't freeze when you click things.
 
 ---
 
