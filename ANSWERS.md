@@ -20,6 +20,7 @@ So basically a process is just a whole program that runs on its own with its own
 
 **Your Answer:**
 In a Round-Robin setup, if a process uses up its time quantum but still has more work to do, it just goes straight to the back of the Ready Queue. We do this mainly to keep things fair for everyone; it stops one huge process from hogging the CPU and making every other process wait. By putting it back in line like that, everyone gets a small turn. My program shows this when P1 leaves the CPU because it needed more time, so P2 and P3 finally got a chance to run.
+Example from my output:
  ? P1 executing quantum [4000ms] 
   ? Quantum progress: [???????????????] 100%
   ? P1 completed quantum 4000ms ? Overall progress: [????????????????????] 50%
@@ -34,13 +35,7 @@ If you look at my output, P1 finished its 4000ms turn but still had a bit of wor
 
 
 
-Example from my output:
-```
-[Paste a relevant snippet from your program output here showing a process being re-queued]
-```
 
-**Explanation of example:**
-[Explain what's happening in the output snippet you pasted]
 
 ---
 
