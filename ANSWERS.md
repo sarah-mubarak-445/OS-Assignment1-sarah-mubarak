@@ -19,8 +19,20 @@ So basically a process is just a whole program that runs on its own with its own
 **Question**: In Round-Robin scheduling, what happens when a process doesn't finish within its time quantum? Explain using an example from your program output.
 
 **Your Answer:**
+In a Round-Robin setup, if a process uses up its time quantum but still has more work to do, it just goes straight to the back of the Ready Queue. We do this mainly to keep things fair for everyone; it stops one huge process from hogging the CPU and making every other process wait. By putting it back in line like that, everyone gets a small turn. My program shows this when P1 leaves the CPU because it needed more time, so P2 and P3 finally got a chance to run.
+ ? P1 executing quantum [4000ms] 
+  ? Quantum progress: [???????????????] 100%
+  ? P1 completed quantum 4000ms ? Overall progress: [????????????????????] 50%
+     Remaining time: 3905ms
+  ? P1 yields CPU for context switch
 
-[Write your answer here. Describe the specific behavior - where does the process go? When does it run again? Give an example from your actual program output showing a process that was re-queued.]
+  ? P1 added to ready queue ? Burst time: 7905ms
+
+  Explanation of example:
+If you look at my output, P1 finished its 4000ms turn but still had a bit of work left to finish. So the system did a context switch and pushed P1 to the end of the line. This is how the scheduler makes sure no one has to wait for too long to get their turn.
+
+
+
 
 Example from my output:
 ```
